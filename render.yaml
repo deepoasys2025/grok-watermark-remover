@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: grok-watermark-remover
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
